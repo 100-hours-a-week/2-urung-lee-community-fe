@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/pages/login.css">
+    <title>로그인페이지</title>
+</head>
+<body>
+    <header>
+        <h4 class="title">아무 말 대잔치</h4>
+        <hr/>
+    </header>
+<main>
+    <section class="login-container">
+        <h2 class="login-title">로그인</h2>
+        <form class="login-form" action="#" method="POST">
+            <!-- 이메일 입력 -->
+            <div class="form-group">
+                <label for="email">이메일</label>
+                <input type="email" id="email" name="email" placeholder="이메일을 입력하세요" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+            <!-- 비밀번호 입력 -->
+            <div class="form-group">
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요" required>
+            </div>
+            <!-- 로그인 버튼 -->
+            <div>
+                <button type="submit" class="login-btn">로그인</button>
+            </div>
+            <!-- 회원가입 버튼 -->
+            <div>
+                <button type="button" class="signup-btn">회원가입</button>
+            </div>
+
+        </form>
+    </section>
+</main>
+<section class="wrap">
+
+</section>
+</body>
+</html>

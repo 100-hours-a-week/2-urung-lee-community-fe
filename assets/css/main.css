@@ -1,0 +1,18 @@
+/* 폰트 추가 */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+/* 페이지 설정 */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #171d2e;
+    font-family: "Noto Sans KR", sans-serif;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 405px;
+    background-color: transparent;
+    padding: 60px 0;
+}
