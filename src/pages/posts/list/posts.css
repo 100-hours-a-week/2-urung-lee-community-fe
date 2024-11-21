@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f5f7;
+}
+header{
+    width: 100%;
+    height: 104px;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.padding-space{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f5f7;
+}
+
+body{
+    font-family: 'Goorm Sans', sans-serif;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #f4f5f7;
+}
+
+h1{
+    font-size: 2rem;
+    color: #000000;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-container {
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto;
+}
+
+/* 환영 메시지 스타일 */
+.welcome-message {
+    margin: 40px 0;
+    font-size: 1.5rem;
+}
+
+.welcome-message p {
+    text-align: center;
+    margin: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.button-wrap{
+    padding-left: 65vw;
+    padding-right: 25vw;
+}
+.write-button {
+    width: 100%;
+    height: 2.4rem;
+    padding: 0.25rem;
+    background-color: #ACA0EB;
+    color: #f4f5f7;
+    border: none;
+    /*padding: 0.75rem 2rem;*/
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    /*float: right;*/
+}
+
+.write-button:hover {
+    background-color: #7f6AEE;
+}
+
+/* 게시글 카드 스타일 */
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.post-header {
+    margin-bottom: 15px;
+}
+
+.post-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.post-meta {
+    display: flex;
+    gap: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.post-date {
+    margin-left: auto;
+}
+
+.post-content {
+    display: flex;
+    gap: 15px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-text {
+    flex-grow: 1;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
