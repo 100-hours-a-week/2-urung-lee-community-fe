@@ -4,6 +4,37 @@
 
 - HTML CSS JS를 활용한 커뮤니티 웹 애플리케이션입니다.<br>
 - 이 프로젝트는 사용자 인증,인가 게시판 CRUD 등 기본적인 커뮤니티 서비스 구현을 목표로합니다.<br>
+## 프로젝트 구조
+``` bash
+src
+├── assets
+│   ├── fonts
+│   └── images
+│       ├── default
+│       ├── icons 
+│       └── logos
+├── js
+│   ├── components
+│   ├── services
+│   └── utils
+├── pages
+│   ├── auth
+│   │   ├── login
+│   │   └── signin
+│   ├── posts
+│   │   ├── create
+│   │   ├── detail
+│   │   ├── edit
+│   │   └── list
+│   └── user
+│       ├── password
+│       └── profile
+├── styles
+│   ├── base
+│   ├── components
+│   └── layouts
+└── templates
+```
 ## 기술스택
 <br/>
 - Front-end: HTML, CSS, JavaScript<br>
