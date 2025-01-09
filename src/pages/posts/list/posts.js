@@ -6,7 +6,8 @@ const posts = [
         comments: 3,
         views: 10,
         date: "2024-01-08 10:30:00",
-        author: "작성자1"
+        author: "작성자1",
+        author_profile: "/src/assets/images/default/profile_img.png",
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ const posts = [
         comments: 1,
         views: 7,
         date: "2024-01-08 11:30:00",
-        author: "작성자2"
+        author: "작성자2",
+        author_profile: "/src/assets/images/default/profile_img.png",
     }
 ];
 
@@ -23,7 +25,7 @@ const posts = [
 function createPostElement(post) {
     // NOTE: 제목 길이 제한 26자
     const truncatedTitle = post.title.length > 26
-    ? post.title.substring(0, 26) : post.title;
+        ? post.title.substring(0, 26) : post.title;
 
     return `
         <article class="post-card" data-post-id="${post.id}">
@@ -45,7 +47,8 @@ function createPostElement(post) {
                     <span class="post-date">${post.date}</span>
                 </div>
             </div>
-            <div class="author">
+            <div class="author-container">
+                <img src="${post.author_profile}" alt="author_profile" class="author-profile">
                 <h3>${post.author}</h3>
             </div>
         </article>

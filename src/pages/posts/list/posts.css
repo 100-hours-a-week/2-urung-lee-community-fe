@@ -177,6 +177,16 @@ h1{
     background-color: white;
 }
 
-.author {
+.author-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding-top: 10px;
+}
+.author-profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    /* 이미지가 컨테이너에 맞게 조정 */
+    object-fit: cover;
 }
