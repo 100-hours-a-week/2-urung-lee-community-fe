@@ -103,12 +103,6 @@ h1{
 .write-button:hover {
     background-color: #7f6AEE;
 }
-.post-container {
-    max-width: 600px;
-    max-height: 181px;
-    margin: 0 auto;
-    padding: 15px;
-}
 
 .post-card {
     max-width: 600px;
@@ -176,6 +170,6 @@ h1{
     background-color: white;
 }
 
-.write-user {
+.author {
     padding-top: 10px;
 }

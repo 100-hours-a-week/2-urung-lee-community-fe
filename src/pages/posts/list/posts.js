@@ -34,18 +34,18 @@ function createPostElement(post) {
                 <div class="post-info">
                     <div class="post-stats">
                         <span class="stat-item">
-                            <i class="icon-like"></i>
+                            <i class="likes"></i>
                             <span> 좋아요 ${post.likes}</span>
-                            <i class="icon-comment"></i>
+                            <i class="comments"></i>
                             <span> 댓글 ${post.comments}</span>
-                            <i class="icon-views"></i>
+                            <i class="views"></i>
                             <span> 조회수 ${post.views}</span>
                         </span>
                     </div>
                     <span class="post-date">${post.date}</span>
                 </div>
             </div>
-            <div class="write-user">
+            <div class="author">
                 <h3>${post.author}</h3>
             </div>
         </article>
@@ -104,6 +104,4 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = `/posts/detail/${postId}`;
         }
     });
-
-
 });
