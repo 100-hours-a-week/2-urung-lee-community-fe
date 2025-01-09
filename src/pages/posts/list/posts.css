@@ -2,23 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*background: #f4f5f7;*/
-    /*background: white;*/
 }
+
+.header-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header{
     width: 100%;
     height: 104px;
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
-    text-align: center;
     border-bottom: 1px solid #000000;
 }
 
 .padding-space{
     margin: 0;
-    padding: 0;
+    padding-left: 200px;
     box-sizing: border-box;
-    /*background: #f4f5f7;*/
+    background: #f4f5f7;
 }
 
 body{
@@ -78,10 +85,10 @@ h1{
 }
 
 .button-wrap{
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    max-width: 138px;
-    margin-left: 60vw;
 }
 .write-button {
     width: auto;
