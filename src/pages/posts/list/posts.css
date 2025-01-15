@@ -21,8 +21,9 @@ header{
     border-bottom: 1px solid #000000;
 }
 
-.padding-space{
+.title{
     margin: 0;
+    flex: 1;
     padding-left: 200px;
     box-sizing: border-box;
     background: #f4f5f7;
